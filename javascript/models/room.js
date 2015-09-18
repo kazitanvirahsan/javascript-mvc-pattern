@@ -2,7 +2,6 @@ var Room = function (elementId) {
   // public properties
   this.element = $("#" + elementId);
   this.tooltip = this.element.find(".tooltip");
-  
   // Any function calls in here will be executed when a room object is instantiated
   this.initalizeTooltip();
 }
